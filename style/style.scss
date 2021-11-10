@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+}
+#currency-converter{
+    background-color: #f35b04;
+    padding: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.header h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 35px;
+    color: #fff;
+    font-size: 24px;
+}
+#converted-result, #single-result{
+    text-transform: capitalize;
+    color: #fff;
+    margin: 20px 0 10px;
+    font-size: 20px;
+    text-align: center;
+}
